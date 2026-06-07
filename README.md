@@ -4,7 +4,7 @@
   <tr>
   <td style="border:0;padding:0 10px 0 0;min-width:25%;"><a href="https://www.powershell.org/" rel="external"><img src="./docs/images/PowerShell_5.0_icon.png" width="120" alt="PowerShell project"/></a></td>
   <td style="border:0;padding:0;vertical-align:text-top;">This repository gathers <a href="https://www.powershell.org/" rel="external">PowerShell</a> code examples coming from various websites and books.<br/>
-  It also includes several build scripts (<a href="https://www.gnu.org/software/bash/manual/bash.html" rel="external">bash scripts</a>, <a href="https://en.wikibooks.org/wiki/Windows_Batch_Scripting" rel="external">batch files</a>, <a href="https://magefile.org/magefiles/" rel="external">Mage files</a>) for experimenting with <a href="https://www.powershell.org/" rel="external">PowerShell</a> on a Windows machine.</td>
+  It also includes several build scripts (<a href="https://www.gnu.org/software/bash/manual/bash.html" rel="external">bash scripts</a>, <a href="https://en.wikibooks.org/wiki/Windows_Batch_Scripting" rel="external">batch files</a>) for experimenting with <a href="https://www.powershell.org/" rel="external">PowerShell</a> on a Windows machine.</td>
   </tr>
 </table>
 
@@ -15,7 +15,7 @@
 This project depends on the following external software for the **Microsoft Windows** platform:
 
 - [Git 2.54][git_downloads] ([*release notes*][git_relnotes])
-- [PowerShell 7][powershell_downloads] ([*release notes*][powershell_relnotes], [*what's new*][powershell_whatsnew])
+- [PowerShell 7.6 LTS][powershell_downloads] ([*release notes*][powershell_relnotes], [*what's new*][powershell_whatsnew])
 
 Optionally one may also install the following software:
 
