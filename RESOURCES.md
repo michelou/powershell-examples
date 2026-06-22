@@ -27,6 +27,9 @@
   - [Getting file metadata with PowerShell][evotec_metadata], June 2020.
 - [Ironman Software][ironman] blog posts :
   - [Working with Paths in PowerShell][ironman_paths], December 2021.
+- [Kevin](https://powershellexplained.com/blog) blog posts :
+  - [Powershell: Building Micro Modules](https://powershellexplained.com/2019-04-11-Powershell-Building-Micro-Modules), April 2019.
+  - [Powershell: Everything you wanted to know about $null](https://powershellexplained.com/2018-12-23-Powershell-null-everything-you-wanted-to-know/), December 2018.
 - [PowerShell is fun :)](https://powershellisfun.com/) blog posts by Harm Veenstra :
   - [Create executables of PowerShell scripts][isfun_executables], May 2026.
   - [PowerShell v7.6 LTS Release and why it matters][isfun_lts], March 2026.
@@ -42,6 +45,11 @@
 - [Sheehans](https://blog.sheehans.org/) blog posts :
   - [PowerShell: Taking Control of CTRL-C][sheehan_ctrl_c], October 2018.
   - [Tracking and Controlling PowerShell Script Execution Progress via XML][sheehan_xml], October 2018.
+- [Varonis](https://www.varonis.com/blog) blog posts :
+  - [PowerShell Variable Scope Guide: Using Scope in Scripts and Modules](https://www.varonis.com/blog/powershell-variable-scope) by Jeff Brown, October 2022.
+  - [The Difference Between Bash and Powershell](https://www.varonis.com/blog/the-difference-between-bash-and-powershell) by Michael Buckbee, June 2022.
+  - [PowerShell Array Guide: How to Use and Create](https://www.varonis.com/blog/powershell-array) by Michael Buckbee, June 2022.
+  - [How to Connect to Office 365 PowerShell: Azure AD Modules](https://www.varonis.com/blog/connect-to-office-365-powershell) by Jeff Brown, February 2022.
 - [Willis](https://xainey.github.io/#blog) blog posts :
   - [Hitchhikers Guide to the PowerShell Module Pipeline][willis_pipeline], January 2017.
   - [Powershell v5 Classes & Concepts][willis_v5], August 2016.

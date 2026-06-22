@@ -8,7 +8,7 @@
   </tr>
 </table>
 
-[Ada][ada_examples], [Akka][akka_examples], [C++][cpp_examples], [COBOL][cobol_examples], [Component Pascal][component_pascal_examples],  [Dafny][dafny_examples],  [Dart][dart_examples], [Deno][deno_examples], [Docker][docker_examples], [Erlang][erlang_examples], [Flix][flix_examples], [GraalVM][graalvm_examples], [Haskell][haskell_examples], [Kafka][kafka_examples], [Kotlin][kotlin_examples], [LLVM][llvm_examples], [Modula-2][m2_examples], [MySQL][mysql_examples], [Node.js][nodejs_examples], [Rust][rust_examples], [Scala&nbsp;3][scala3_examples], [Spark][spark_examples], [Spring][spring_examples], [Standard&nbsp;ML][sml_examples], [TruffleSqueak][trufflesqueak_examples], [WiX&nbsp;Toolset][wix_examples] and [Zig][zig_examples] are other topics we are continuously monitoring.
+[Ada][ada_examples], [Akka][akka_examples], [C++][cpp_examples], [COBOL][cobol_examples], [Common&nbsp;Lisp][cl_examples], [Component&nbsp;Pascal][component_pascal_examples],  [Dafny][dafny_examples],  [Dart][dart_examples], [Deno][deno_examples], [Docker][docker_examples], [Erlang][erlang_examples], [Flix][flix_examples], [GraalVM][graalvm_examples], [Haskell][haskell_examples], [Kafka][kafka_examples], [Kotlin][kotlin_examples], [LLVM][llvm_examples], [Modula-2][m2_examples], [MySQL][mysql_examples], [Node.js][nodejs_examples], [Rust][rust_examples], [Scala&nbsp;3][scala3_examples], [Spark][spark_examples], [Spring][spring_examples], [Standard&nbsp;ML][sml_examples], [TruffleSqueak][trufflesqueak_examples], [WiX&nbsp;Toolset][wix_examples] and [Zig][zig_examples] are other topics we are continuously monitoring.
 
 ## <span id="proj_deps">Project dependencies</span>
 
@@ -20,7 +20,7 @@ This project depends on the following external software for the **Microsoft Wind
 Optionally one may also install the following software:
 
 - [ConEmu 2023][conemu_downloads] ([*release notes*][conemu_relnotes])
-- [Visual Studio Code 1.123][vscode_downloads] ([*release notes*][vscode_relnotes])
+- [Visual Studio Code 1.125][vscode_downloads] ([*release notes*][vscode_relnotes])
 
 For instance our development environment looks as follows (*June 2026*) <sup id="anchor_01">[1](#footnote_01)</sup>:
 
@@ -36,7 +36,7 @@ C:\Program Files\PowerShell\7\  <i>(282 MB)</i>
 This project has the following directory structure :
 
 <pre style="font-size:80%;">
-docs\
+docs\{<a href="./docs/MODULES.md">MODULES.md</a>, <a href="./docs/POLICIES.md">POLICIES.md</a>, ...}
 examples\{<a href="./examples/README.md">README.md</a>, <a href="./examples/hello/">hello</a>, ...}
 <a href="README.md">README.md</a>
 <a href="RESOURCES.md">RESOURCES.md</a>
@@ -61,7 +61,7 @@ We execute command [**`setenv.bat`**](setenv.bat) once to setup our development 
 <pre style="font-size:80%;">
 <b>&gt; <a href="setenv.bat">setenv</a></b>
 Tool versions:
-   code 1.123.0, powershell 5.1.26100.7920, pwsh 7.6.2,
+   code 1.125.1, powershell 5.1.26100.7920, pwsh 7.6.3,
    git 2.54.0, diff 3.12, bash 5.3.9(1)
 
 <b>&gt; <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/where_1" rel="external">where</a> code git pwsh</b>
@@ -84,8 +84,8 @@ In our case we downloaded the following installation files (see <a href="#proj_d
 <pre style="font-size:80%;">
 <a href="https://github.com/Maximus5/ConEmu/releases/tag/v23.07.24" rel="external">ConEmuPack.230724.7z</a>              <i>(  5 MB)</i>
 <a href="https://git-scm.com/download/win" rel="external">PortableGit-2.54.0-64-bit.7z.exe</a>  <i>( 41 MB)</i>
-<a href="https://github.com/PowerShell/PowerShell/releases/tag/v7.6.2" rel="external">PowerShell-7.6.2-win-x64.msi</a>      <i>(111 MB)</i>
-<a href="https://code.visualstudio.com/Download#" rel="external">VSCode-win32-x64-1.123.0.zip</a>      <i>(131 MB)</i>
+<a href="https://github.com/PowerShell/PowerShell/releases/tag/v7.6.3" rel="external">PowerShell-7.6.3-win-x64.msi</a>      <i>(111 MB)</i>
+<a href="https://code.visualstudio.com/Download#" rel="external">VSCode-win32-x64-1.125.1.zip</a>      <i>(131 MB)</i>
 </pre>
 </dd></dl>
 
@@ -119,6 +119,7 @@ Concretely, in our GitHub projects which depend on Visual Studio (e.g. <a href="
 
 [ada_examples]: https://github.com/michelou/ada-examples#top
 [akka_examples]: https://github.com/michelou/akka-examples#top
+[cl_examples]: https://github.com/michelou/cl-examples#top
 [cobol_examples]: https://github.com/michelou/cobol-examples#top
 [code_cli]: https://code.visualstudio.com/docs/editor/command-line
 [component_pascal_examples]: https://github.com/michelou/component-pascal-examples#top
@@ -150,8 +151,8 @@ Concretely, in our GitHub projects which depend on Visual Studio (e.g. <a href="
 [msys2_downloads]: http://repo.msys2.org/distrib/x86_64/
 [mysql_examples]: https://github.com/michelou/mysql-examples#top
 [nodejs_examples]: https://github.com/michelou/nodejs-examples#top
-[powershell_downloads]: https://github.com/PowerShell/PowerShell/releases/tag/v7.6.2
-[powershell_relnotes]: https://github.com/PowerShell/PowerShell/releases/tag/v7.6.2
+[powershell_downloads]: https://github.com/PowerShell/PowerShell/releases/tag/v7.6.3
+[powershell_relnotes]: https://github.com/PowerShell/PowerShell/releases/tag/v7.6.3
 [powershell_whatsnew]: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/what-s-new-in-powershell-76
 [rust_examples]: https://github.com/michelou/rust-examples#top
 [scala3_examples]: https://github.com/michelou/dotty-examples#top

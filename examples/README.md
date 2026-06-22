@@ -1,4 +1,4 @@
-# <span id="top">PowerShell examples</span> <span style="size:30%;"><a href="../README.md">⬆</a></span>
+# <span id="top">PowerShell Examples</span> <span style="size:30%;"><a href="../README.md">⬆</a></span>
 
 <table style="font-family:Helvetica,Arial;line-height:1.6;">
   <tr>
@@ -10,6 +10,8 @@
   </td>
   </tr>
 </table>
+
+[Gallery of PowerShell commands](https://www.pdq.com/powershell/).
 
 **WIP**
 
